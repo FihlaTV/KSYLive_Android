@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KSYLiveDemo.iml" filepath="$PROJECT_DIR$/KSYLiveDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KSYLiveDemo-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KSYLiveDemo-app.iml" group="KSYLiveDemo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libksylive/KSYLiveDemo-libksylive.iml" filepath="$PROJECT_DIR$/.idea/modules/libksylive/KSYLiveDemo-libksylive.iml" group="KSYLiveDemo/libksylive" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KSYLive_Android-KSYLiveDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/KSYLive_Android-KSYLiveDemo.iml" group="KSYLiveDemo" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libksylive/libksylive.iml" filepath="$PROJECT_DIR$/libksylive/libksylive.iml" />
     </modules>
