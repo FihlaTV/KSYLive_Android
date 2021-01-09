@@ -170,9 +170,9 @@ public class TextureVideoActivity extends Activity implements View.OnClickListen
             mVideoResolution.setText("Resolution:" + mVideoView.getVideoWidth() + "x" + mVideoView.getVideoHeight());
 
             mStartTime = System.currentTimeMillis();
-            chooseDebug = settings.getString("choose_debug", "信息为空");
+            chooseDebug = settings.getString("choose_debug", "Information is empty");
             if (chooseDebug.isEmpty() || chooseDebug.equals(Settings.DEBUGOFF)) {
-                Log.e("VideoPlayer", "关闭");
+                Log.e("VideoPlayer", "Turn Off");
                 mSdkVersion.setVisibility(View.GONE);
                 mVideoResolution.setVisibility(View.GONE);
                 mVideoBitrate.setVisibility(View.GONE);
@@ -189,7 +189,7 @@ public class TextureVideoActivity extends Activity implements View.OnClickListen
                 mDecodeFps.setVisibility(View.GONE);
                 mOutputFps.setVisibility(View.GONE);
             } else {
-                Log.e("VideoPlayer", "开启");
+                Log.e("VideoPlayer", "Turn Off");
 
                 mSdkVersion.setVisibility(View.VISIBLE);
                 mVideoResolution.setVisibility(View.VISIBLE);

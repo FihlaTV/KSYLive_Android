@@ -84,11 +84,11 @@ public class VideoFilterFragment extends Fragment {
             "BEAUTY_SMOOTH", "BEAUTY_PRO", "BEAUTY_PRO2", "BEAUTY_PRO3", "BEAUTY_PRO4",
             "DEMO_FILTER", "RGBABufFilter", "YUVBufFilter",
             "ToneCurve(ACV)", "复古(ACV)", "胶片(ACV)",
-            "小清新", "青春靓丽", "甜美可人", "怀旧", "蓝调", "老照片", "樱花", "樱花(暗光)",
-            "红润(暗光)", "阳光(暗光)", "红润", "阳光", "自然", "恋人", "高雅",
+            "Small and Fresh", "Young and Beautiful", "Sweet and Pleasant", "Nostalgic", "Blues", "Old Photos", "Sakura", "Sakura (Dark Light)",
+            "Ruddy (dark light)", "Sunshine (dark light)", "Ruddy", "Sunshine", "Nature", "Lovers", "Elegant",
             "1977", "Amaro", "Brannan", "EarlyBird", "Hefe", "Hudson", "ink", "Lomo", "LordKelvin",
             "Nash", "Rise", "Sierra", "Sutro", "Toaster", "Valencia", "Walden", "XproII",
-            "鱼眼", "浮雕", "高斯模糊", "水彩画", "素描",
+            "Fisheye", "Relief", "Gaussian Blur", "Watercolor Painting", "Sketch",
     };
     protected int mFilterPos = 0;
     protected ImgFilterBase[] mFilterArray = new ImgFilterBase[mFilterIdxs.length];
@@ -118,7 +118,7 @@ public class VideoFilterFragment extends Fragment {
         mStreamer.getImgTexFilterMgt().setOnErrorListener(new ImgTexFilterBase.OnErrorListener() {
             @Override
             public void onError(ImgTexFilterBase filter, int errno) {
-                Toast.makeText(mActivity.getApplicationContext(), "当前机型不支持该滤镜",
+                Toast.makeText(mActivity.getApplicationContext(), "The current model does not support the filter",
                         Toast.LENGTH_SHORT).show();
                 mStreamer.getImgTexFilterMgt().replaceFilter(filter, null);
 

@@ -48,8 +48,8 @@ import butterknife.OnClick;
 
 public class StdCameraActivity extends BaseCameraActivity {
     public static final String TAG = "StdCameraActivity";
-    protected static final String START_RECORD = "开始录制";
-    protected static final String STOP_RECORD = "停止录制";
+    protected static final String START_RECORD = "Record";
+    protected static final String STOP_RECORD = "Stop";
 
     // 预览View类型定义
     public static final int PREVIEW_TYPE_GLSURFACEVIEW = 1;
@@ -188,7 +188,7 @@ public class StdCameraActivity extends BaseCameraActivity {
 
         // 功能选择下拉框
         createFragments();
-        String[] items = new String[]{"水印设置", "推流设置", "音频设置", "视频滤镜", "添加贴纸"};
+        String[] items = new String[]{"Watermark Settings\", \"Push Stream Settings\", \"Audio Settings\", \"Video Filters\", \"Add Stickers"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_item, items);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

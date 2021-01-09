@@ -51,8 +51,8 @@ public class BaseCameraActivity extends Activity implements
     public static final String TAG = "BaseCameraActivity";
 
     protected static final int PERMISSION_REQUEST_CAMERA_AUDIOREC = 1;
-    protected static final String START_STREAM = "开始直播";
-    protected static final String STOP_STREAM = "停止直播";
+    protected static final String START_STREAM = "Stream";
+    protected static final String STOP_STREAM = "Stop";
 
     @BindView(R.id.gl_surface_view)
     protected GLSurfaceView mGLSurfaceView;
@@ -328,7 +328,7 @@ public class BaseCameraActivity extends Activity implements
         mStreamer.getImgTexFilterMgt().setOnErrorListener(new ImgTexFilterBase.OnErrorListener() {
             @Override
             public void onError(ImgTexFilterBase filter, int errno) {
-                Toast.makeText(getApplicationContext(), "当前机型不支持该滤镜",
+                Toast.makeText(getApplicationContext(), "The current model does not support the filter",
                         Toast.LENGTH_SHORT).show();
                 mStreamer.getImgTexFilterMgt().setFilter(mStreamer.getGLRender(),
                         ImgTexFilterMgt.KSY_FILTER_BEAUTY_DISABLE);

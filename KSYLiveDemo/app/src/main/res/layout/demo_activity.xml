@@ -43,14 +43,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="0dp"
-            android:text="RTMP服务器地址："
+            android:text="RTMP server address："
             android:textSize="16sp" />
 
         <EditText
             android:id="@+id/rtmpUrl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="rtmp://mobile.kscvbu.cn/live/androidtest" />
+            android:text="rtmp://live.qtune.io/stream/568d311a-2061-4fde-a815-cd7f7f3db46dt" />
 
         <Button
             android:id="@+id/connectBT"

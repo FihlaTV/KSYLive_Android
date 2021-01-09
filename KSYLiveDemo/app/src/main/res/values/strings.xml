@@ -35,10 +35,10 @@
 
     <string name="ksyun_name">Qtune Suite</string>
 
-    <string name="ksyun_introduction_1">Kingsoft Video Cloud relies on industry-leading codec technology and powerful distribution services, based on Kingsoft Cloud’s top IaaS infrastructure, and provides one-stop cloud direct and on-demand services.</string>
-    <string name="ksyun_introduction_2">Kingsoft Video Cloud provides tools for content production and viewing, namely push streaming SDK. With its complete functions, excellent compatibility and performance, it meets the emerging business needs of customers, and then realizes video through the Kingsoft Cube system and third-party platforms. The prosperity of the ecological chain.</string>
-    <string name="ksyun_introduction_3">Kingsoft Cloud Push Streaming SDK supports H.264/H.265 encoding, soft and hard coding, and supports a variety of beauty filters, special effects, and microphones. The audio module is also continuously enhanced: Bel Canto, up and down, voice change, mixing, etc., weak The network optimization module is also quite successful: bit rate adaptation, network active detection, dynamic frame rate, etc.</string>
-    <string name="ksyun_introduction_4">Kingsoft Cloud Play SDK provides first-class live broadcast experience to live broadcasts through live broadcast optimization strategies such as opening seconds on the first screen and live broadcast catching up.</string>
+    <string name="ksyun_introduction_1"> Video Cloud relies on industry-leading codec technology and powerful distribution services, based on  Cloud’s top IaaS infrastructure, and provides one-stop cloud direct and on-demand services.</string>
+    <string name="ksyun_introduction_2"> Video Cloud provides tools for content production and viewing, namely push streaming SDK. With its complete functions, excellent compatibility and performance, it meets the emerging business needs of customers, and then realizes video through the  Cube system and third-party platforms. The prosperity of the ecological chain.</string>
+    <string name="ksyun_introduction_3"> Cloud Push Streaming SDK supports H.264/H.265 encoding, soft and hard coding, and supports a variety of beauty filters, special effects, and microphones. The audio module is also continuously enhanced: Bel Canto, up and down, voice change, mixing, etc., weak The network optimization module is also quite successful: bit rate adaptation, network active detection, dynamic frame rate, etc.</string>
+    <string name="ksyun_introduction_4"> Cloud Play SDK provides first-class live broadcast experience to live broadcasts through live broadcast optimization strategies such as opening seconds on the first screen and live broadcast catching up.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -46,7 +46,7 @@
 
     <string name="set_setting">Setup</string>
 
-    <string name="popup_choice">请选择编码格式</string>
+    <string name="popup_choice">Please select encoding format</string>
 
     <string name="net_scan">Scan</string>
 

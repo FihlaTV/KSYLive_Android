@@ -148,7 +148,7 @@
             android:layout_marginRight="10dp"
             android:textSize="10dp"
             android:textColor="@color/player_black"
-            android:text="旋转"/>
+            android:text="Spin"/>
 
         <Button
             android:id="@+id/btn_screen_player"
@@ -157,7 +157,7 @@
             android:layout_toLeftOf="@+id/btn_rotate_player"
             android:textColor="@color/player_black"
             android:textSize="10dp"
-            android:text="截屏"/>
+            android:text="Screenshot"/>
 
         <Button
             android:id="@+id/btn_mute_player"
@@ -167,7 +167,7 @@
             android:layout_below="@+id/player_scale"
             android:textColor="@color/player_black"
             android:textSize="10dp"
-            android:text="静音"/>
+            android:text="Mute"/>
 
 
     </RelativeLayout>

@@ -14,7 +14,7 @@
         android:layout_weight="1"
         android:background="#11123456"
         android:checked="true"
-        android:text="显示贴纸"
+        android:text="Show sticker"
         android:textColor="@color/font_color_35"
         android:textSize="@dimen/font_size_28px">
     </CheckBox>
@@ -28,7 +28,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:background="#11123456"
-        android:text="添加贴纸"
+        android:text="Add stickers"
         android:textColor="@color/font_color_35"
         android:textSize="@dimen/font_size_28px">
     </TextView>

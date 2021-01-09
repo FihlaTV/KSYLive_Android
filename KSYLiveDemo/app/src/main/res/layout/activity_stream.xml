@@ -27,8 +27,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:singleLine="true"
-                android:text="rtmp://test.uplive.ks-cdn.com/live/androidtest"
-                android:hint="请输入rtmp服务器的地址"/>
+                android:text="rtmp://live.qtune.io/stream/568d311a-2061-4fde-a815-cd7f7f3db46d"
+                android:hint="Please enter the address of the rtmp server"/>
         </android.support.design.widget.TextInputLayout>
 
         <RelativeLayout
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="请选择合适的音频采样率:"
+                android:text="Please select a suitable audio sampling rate:"
                 android:layout_centerVertical="true"/>
             <Spinner
                 android:id="@+id/spinner_audiorateinhz"
@@ -102,14 +102,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false"
-                    android:text="横屏" />
+                    android:text="Landscape" />
 
                 <RadioButton
                     android:id="@+id/radio_orientationbutton2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="true"
-                    android:text="竖屏" />
+                    android:text="Potrait" />
             </RadioGroup>
 
         </LinearLayout>
@@ -139,14 +139,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false"
-                    android:text="硬编" />
+                    android:text="Hard-coded" />
 
                 <RadioButton
                     android:id="@+id/radio_encode_sw"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="true"
-                    android:text="软编" />
+                    android:text="Softcoded" />
             </RadioGroup>
 
         </LinearLayout>
@@ -180,7 +180,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:text="*默认为15"
+                android:text="*The default is:15"
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@+id/edit_frameRatePicker"/>
 

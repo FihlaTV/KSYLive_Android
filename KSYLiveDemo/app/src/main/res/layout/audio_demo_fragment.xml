@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="音频编码"
+        android:text="Audio coding"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="false"
-            android:text="双声道推流" />
+            android:text="Two-channel streaming" />
 
         <CheckBox
             android:id="@+id/autoStart"
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="false"
-            android:text="初始化完成后启动推流" />
+            android:text="Start push after initialization" />
 
         <CheckBox
             android:id="@+id/print_debug_info"
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="true"
-            android:text="显示调试信息" />
+            android:text="Display debugging information" />
     </LinearLayout>
 
     <LinearLayout
@@ -81,7 +81,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="音频码率"
+            android:text="Audio bit rate"
             android:textSize="16sp" />
 
         <EditText

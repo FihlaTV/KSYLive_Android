@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="初始摄像头"
+        android:text="Initial camera"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -24,14 +24,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="前置" />
+            android:text="Front" />
 
         <RadioButton
             android:id="@+id/camera_face_rear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="后置" />
+            android:text="Rear" />
     </RadioGroup>
 
     <TextView
@@ -201,7 +201,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="音频码率"
+            android:text="Audio bit rate"
             android:textSize="16sp" />
 
         <EditText

@@ -110,10 +110,10 @@ public class SettingActivity extends AppCompatActivity implements RadioGroup.OnC
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
                 if (isChecked) {
                     editor.putString("choose_debug", Settings.DEBUGON);
-                    Toast.makeText(SettingActivity.this, "Debug被打开", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SettingActivity.this, "Debug-On", Toast.LENGTH_SHORT).show();
                 } else {
                     editor.putString("choose_debug", Settings.DEBUGOFF);
-                    Toast.makeText(SettingActivity.this, "Debug被关闭", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SettingActivity.this, "Debug-Off", Toast.LENGTH_SHORT).show();
                 }
                 editor.commit();
             }

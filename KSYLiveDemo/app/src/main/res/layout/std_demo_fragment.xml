@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="初始摄像头"
+        android:text="Inital Camera"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -24,14 +24,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="前置" />
+            android:text="Front" />
 
         <RadioButton
             android:id="@+id/camera_face_rear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="后置" />
+            android:text="Rear" />
     </RadioGroup>
 
     <TextView
@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="采集分辨率"
+        android:text="Capture resolution"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -84,7 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="预览分辨率"
+        android:text="Preview resolution"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -174,7 +174,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="预览View"
+        android:text="Preview View"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -212,7 +212,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="前后台切换"
+        android:text="Front and back switch"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -228,21 +228,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="正常推流" />
+            android:text="Normal Stream" />
 
         <RadioButton
             android:id="@+id/bg_keep_last_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="保留最后一帧" />
+            android:text="Keep the last frame" />
 
         <RadioButton
             android:id="@+id/bg_image_streaming"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="背景图推流" />
+            android:text="Wallpaper stream" />
     </RadioGroup>
 
     <RadioGroup
@@ -257,21 +257,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="横屏" />
+            android:text="Landscape" />
 
         <RadioButton
             android:id="@+id/orientation_portrait"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="竖屏" />
+            android:text="Potrait" />
 
         <RadioButton
             android:id="@+id/orientation_auto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="动态" />
+            android:text="Auto" />
     </RadioGroup>
 
     <RadioGroup
@@ -308,35 +308,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="自动(白名单)" />
+            android:text="Auto Encode" />
 
         <RadioButton
             android:id="@+id/encode_hw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="硬编" />
+            android:text="Hard encoded" />
 
         <RadioButton
             android:id="@+id/encode_sw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="软编" />
+            android:text="Softcode" />
 
         <RadioButton
             android:id="@+id/encode_sw1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="软编1" />
+            android:text="Soft edit 1" />
     </RadioGroup>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="场景编码"
+        android:text="Scene coding"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -352,7 +352,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="通用模式" />
+            android:text="General mode" />
 
         <RadioButton
             android:id="@+id/encode_scene_show_self"
@@ -366,7 +366,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="游戏模式" />
+            android:text="Game mode" />
     </RadioGroup>
 
     <RadioGroup
@@ -382,7 +382,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="低功耗" />
+            android:text="Powersave" />
 
         <RadioButton
             android:id="@+id/encode_profile_balance"
@@ -396,14 +396,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="高性能" />
+            android:text="Turbo Mode" />
     </RadioGroup>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="音频编码"
+        android:text="Audio coding"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -448,7 +448,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="true"
-            android:text="手势缩放，触摸对焦" />
+            android:text="Gesture zoom, touch focus" />
 
         <CheckBox
             android:id="@+id/stereo_stream"
@@ -456,7 +456,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="false"
-            android:text="双声道推流" />
+            android:text="Two-channel streaming" />
 
         <CheckBox
             android:id="@+id/bluetooth_mic"
@@ -464,7 +464,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="true"
-            android:text="蓝牙麦克风优先" />
+            android:text="Bluetooth Mic" />
 
         <CheckBox
             android:id="@+id/autoStart"
@@ -472,7 +472,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="false"
-            android:text="初始化完成后启动推流" />
+            android:text="Start streaming" />
 
         <CheckBox
             android:id="@+id/print_debug_info"
@@ -480,7 +480,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="true"
-            android:text="显示调试信息" />
+            android:text="Display debugging information" />
     </LinearLayout>
 
     <LinearLayout
@@ -491,7 +491,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="视频帧率"
+            android:text="Video frame rate"
             android:textSize="16sp" />
 
         <EditText
@@ -510,7 +510,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="视频码率(Max)"
+            android:text="FPS(Max)"
             android:textSize="16sp" />
 
         <EditText
@@ -529,7 +529,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="音频码率"
+            android:text="Audio bit rate"
             android:textSize="16sp" />
 
         <EditText

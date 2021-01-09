@@ -16,7 +16,7 @@ import java.io.IOException;
 public class TextureViewMediaActivity extends Activity implements TextureView.SurfaceTextureListener,
         IMediaPlayer.OnPreparedListener{
     private static final String TAG = "GLRender";
-    private  String videoPath= "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+    private  String videoPath= "rtmp://live.qtune.io";
     private TextureView textureView;
     private KSYMediaPlayer mediaPlayer;
 

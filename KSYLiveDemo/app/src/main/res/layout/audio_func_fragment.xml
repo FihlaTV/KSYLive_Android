@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:background="#11123456"
             android:checked="false"
-            android:text="背景音乐"
+            android:text="SoundTrack"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </CheckBox>
@@ -34,7 +34,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:background="#11123456"
-            android:text="bgm升降调"
+            android:text="SoundTrack Pitch"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </TextView>
@@ -85,7 +85,7 @@
             android:layout_weight="1"
             android:background="#11123456"
             android:checked="false"
-            android:text="静音"
+            android:text="Mute"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </CheckBox>
@@ -100,7 +100,7 @@
             android:layout_weight="1"
             android:background="#11123456"
             android:checked="false"
-            android:text="降噪"
+            android:text="Noise reduction"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </CheckBox>
@@ -115,7 +115,7 @@
             android:layout_weight="1"
             android:background="#11123456"
             android:checked="false"
-            android:text="低延迟"
+            android:text="Low latency"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </CheckBox>

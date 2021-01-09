@@ -184,9 +184,9 @@ public class PlayRecordActivity extends Activity implements View.OnClickListener
             mVideoResolution.setText("Resolution:" + mVideoView.getVideoWidth() + "x" + mVideoView.getVideoHeight());
 
             mStartTime = System.currentTimeMillis();
-            chooseDebug = settings.getString("choose_debug", "信息为空");
+            chooseDebug = settings.getString("choose_debug", "Information is empty");
             if (chooseDebug.isEmpty() || chooseDebug.equals(Settings.DEBUGOFF)) {
-                Log.e("VideoPlayer", "关闭");
+                Log.e("VideoPlayer", "shut down");
                 mSdkVersion.setVisibility(View.GONE);
                 mVideoResolution.setVisibility(View.GONE);
                 mVideoBitrate.setVisibility(View.GONE);
@@ -203,7 +203,7 @@ public class PlayRecordActivity extends Activity implements View.OnClickListener
                 mDecodeFps.setVisibility(View.GONE);
                 mOutputFps.setVisibility(View.GONE);
             } else {
-                Log.e("VideoPlayer", "开启");
+                Log.e("VideoPlayer", "Turn On");
 
                 mSdkVersion.setVisibility(View.VISIBLE);
                 mVideoResolution.setVisibility(View.VISIBLE);

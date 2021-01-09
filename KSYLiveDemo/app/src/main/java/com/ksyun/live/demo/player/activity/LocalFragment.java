@@ -66,7 +66,7 @@ public class LocalFragment extends android.app.Fragment implements SwipeRefreshL
                             swipeLayout.setRefreshing(false);
                         } else {
                             swipeLayout.setRefreshing(false);
-                            Toast.makeText(getActivity(), "更新失败,请等待加载完毕", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "Update failed, please wait for loading", Toast.LENGTH_SHORT).show();
                         }
                         break;
                     case 2:

@@ -29,7 +29,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:background="#11123456"
-                android:text="bgm升降调"
+                android:text="SoundTrack Pitch"
                 android:textColor="@color/font_color_35"
                 android:textSize="@dimen/font_size_28px">
             </TextView>
@@ -57,7 +57,7 @@
                 android:layout_weight="1"
                 android:background="#11123456"
                 android:checked="false"
-                android:text="手绘"
+                android:text="Hand Painted"
                 android:textColor="@color/font_color_35"
                 android:textSize="@dimen/font_size_28px">
             </CheckBox>
@@ -71,7 +71,7 @@
                 android:layout_weight="1"
                 android:background="#11123456"
                 android:checked="false"
-                android:text="背景图推流"
+                android:text="Wallpaper stream"
                 android:textColor="@color/font_color_35"
                 android:textSize="@dimen/font_size_28px">
             </CheckBox>
@@ -121,7 +121,7 @@
                 android:layout_weight="1"
                 android:background="#11123456"
                 android:checked="false"
-                android:text="降噪"
+                android:text="Noise reduction"
                 android:textColor="@color/font_color_35"
                 android:textSize="@dimen/font_size_28px">
             </CheckBox>

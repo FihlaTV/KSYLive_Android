@@ -11,7 +11,7 @@
             android:id="@+id/btn_beauty"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="美颜"/>
+                android:text="Beauty"/>
         <!--<Button-->
             <!--android:id="@+id/btn_pip"-->
             <!--android:layout_width="match_parent"-->
@@ -21,22 +21,22 @@
             android:id="@+id/btn_audio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="美声"/>
+            android:text="Beautiful voice"/>
         <Button
             android:id="@+id/btn_water"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="水印"/>
+            android:text="Watermark"/>
         <Button
             android:id="@+id/btn_mix"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="混音"/>
+            android:text="Mix"/>
         <Button
             android:id="@+id/btn_other"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="其他"/>
+            android:text="Other"/>
 
 
     </LinearLayout>

@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:background="#11123456"
             android:checked="false"
-            android:text="前置镜像"
+            android:text="Front mirror"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </CheckBox>
@@ -35,7 +35,7 @@
             android:layout_weight="1"
             android:background="#11123456"
             android:checked="false"
-            android:text="手绘推流"
+            android:text="Hand-painted push"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </CheckBox>

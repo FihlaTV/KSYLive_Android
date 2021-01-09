@@ -50,7 +50,7 @@
             android:layout_weight="1"
             android:background="#11123456"
             android:checked="false"
-            android:text="多水印"
+            android:text="Multiple watermarks"
             android:textColor="@color/font_color_35"
             android:textSize="@dimen/font_size_28px">
         </CheckBox>

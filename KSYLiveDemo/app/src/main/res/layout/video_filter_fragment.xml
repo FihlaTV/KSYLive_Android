@@ -20,7 +20,7 @@
             android:layout_width="64dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="磨皮"
+            android:text="Surgical"
             android:textColor="@color/font_color_35"
             android:textSize="16sp"/>
 
@@ -45,7 +45,7 @@
             android:layout_width="64dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="美白"
+            android:text="Whiten"
             android:textColor="@color/font_color_35"
             android:textSize="16sp"/>
 
@@ -70,7 +70,7 @@
             android:layout_width="64dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="红润"
+            android:text="rosy"
             android:textColor="@color/font_color_35"
             android:textSize="16sp"/>
 
