@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="选择贴纸查看预览效果"
+            android:text="Choose Sticker"
             android:textColor="#ffffff"
             android:textSize="20dp" />
     </FrameLayout>

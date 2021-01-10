@@ -129,7 +129,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="推流分辨率"
+        android:text="Stream Resolution"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -204,7 +204,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="离屏" />
+            android:text="Prieview" />
     </RadioGroup>
 
     <TextView
@@ -359,7 +359,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="秀场模式" />
+            android:text="Show mode" />
 
         <RadioButton
             android:id="@+id/encode_scene_game"
@@ -389,7 +389,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="平衡" />
+            android:text="balance" />
 
         <RadioButton
             android:id="@+id/encode_profile_high_perf"

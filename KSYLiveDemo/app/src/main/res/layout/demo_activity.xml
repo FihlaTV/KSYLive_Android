@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="准备直播" />
+            android:text="Ready to broadcast" />
 
         <LinearLayout
             android:id="@+id/fragment_layout"

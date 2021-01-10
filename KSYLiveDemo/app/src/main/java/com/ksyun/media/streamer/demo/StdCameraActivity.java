@@ -188,7 +188,7 @@ public class StdCameraActivity extends BaseCameraActivity {
 
         // 功能选择下拉框
         createFragments();
-        String[] items = new String[]{"Watermark Settings\", \"Push Stream Settings\", \"Audio Settings\", \"Video Filters\", \"Add Stickers"};
+        String[] items = new String[]{"Watermark Settings", "Push Stream Settings", "Audio Settings", "Video Filters", "Add Stickers"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_item, items);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -514,7 +514,7 @@ public class StdCameraActivity extends BaseCameraActivity {
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 90, bos);
                 runOnUiThread(new Runnable() {
                     public void run() {
-                        Toast.makeText(getApplicationContext(), "保存截图到 " +
+                        Toast.makeText(getApplicationContext(), "Save screenshot to " +
                                 path, Toast.LENGTH_SHORT).show();
                     }
                 });
@@ -524,7 +524,7 @@ public class StdCameraActivity extends BaseCameraActivity {
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    Toast.makeText(getApplicationContext(), "保存截图失败",
+                    Toast.makeText(getApplicationContext(), "Failed to save screenshot",
                             Toast.LENGTH_SHORT).show();
                 }
             });

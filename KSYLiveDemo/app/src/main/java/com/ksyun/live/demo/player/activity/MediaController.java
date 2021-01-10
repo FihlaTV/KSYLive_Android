@@ -80,6 +80,7 @@ public class MediaController extends FrameLayout implements IMediaController {
 
     @Override
     public void onFinishInflate() {
+        super.onFinishInflate();
         if (mRoot != null)
             initControllerView(mRoot);
     }

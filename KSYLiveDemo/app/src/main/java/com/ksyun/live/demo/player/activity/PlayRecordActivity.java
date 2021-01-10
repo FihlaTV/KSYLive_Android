@@ -520,7 +520,7 @@ public class PlayRecordActivity extends Activity implements View.OnClickListener
                 case NetState.NETWORK_WIFI:
                     break;
                 case NetState.NETWORK_NONE:
-                    Toast.makeText(PlayRecordActivity.this, "没有监测到网络,请检查网络连接", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PlayRecordActivity.this, "No network detected, please check network connection", Toast.LENGTH_SHORT).show();
                     break;
                 default:
                     break;

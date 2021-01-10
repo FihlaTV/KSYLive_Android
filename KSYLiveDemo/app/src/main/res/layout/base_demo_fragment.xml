@@ -91,14 +91,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="横屏" />
+            android:text="Landscape" />
 
         <RadioButton
             android:id="@+id/orientation_portrait"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="竖屏" />
+            android:text="Portrait" />
     </RadioGroup>
 
     <RadioGroup
@@ -113,21 +113,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="自动(白名单)" />
+            android:text="Automatic (whitelist)" />
 
         <RadioButton
             android:id="@+id/encode_hw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="硬编" />
+            android:text="Hard-coded" />
 
         <RadioButton
             android:id="@+id/encode_sw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="软编" />
+            android:text="Soft edit" />
     </RadioGroup>
 
     <LinearLayout
@@ -142,7 +142,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:checked="false"
-            android:text="初始化完成后启动推流" />
+            android:text="Push after" />
 
         <CheckBox
             android:id="@+id/print_debug_info"
@@ -161,7 +161,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="视频帧率"
+            android:text="FPS"
             android:textSize="16sp" />
 
         <EditText
@@ -181,7 +181,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="视频码率(Max)"
+            android:text="Video bit rate (Max)"
             android:textSize="16sp" />
 
         <EditText
